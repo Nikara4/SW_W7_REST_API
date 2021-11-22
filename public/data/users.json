@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "name": "Mark",
+      "surname": "Spencer",
+      "id": "1",
+      "age": "23",
+      "position": "IT engineer",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "email": "mspencer@codecompany.com"
+    },
+    {
+      "name": "Joe",
+      "surname": "Mcdonald",
+      "id": "2",
+      "age": "43",
+      "position": "Project Manager",
+      "city": "Brno",
+      "country": "Chech Republic",
+      "email": "jmcdonald@codecompany.com"
+    },
+    {
+      "name": "Ralph",
+      "surname": "Loren",
+      "id": "3",
+      "age": "20",
+      "position": "Junior Finanse Specialist",
+      "city": "New York",
+      "country": "United Stated",
+      "email": "rlorep@codecompany.com"
+    },
+    {
+      "name": "Robert",
+      "surname": "Clark",
+      "id": "4",
+      "age": "26",
+      "position": "Web Developer",
+      "city": "Milan",
+      "country": "Italy",
+      "email": "rclark@codecompany.com"
+    },
+    {
+      "name": "Lars Magnus",
+      "surname": "Ericsson",
+      "id": "5",
+      "age": "34",
+      "position": "Senior Java Developer",
+      "city": "Oslo",
+      "country": "Sweden",
+      "email": "lmerricson@codecompany.com"
+    },
+    {
+      "name": "Otto",
+      "surname": "von Jungingen",
+      "id": "6",
+      "age": "44",
+      "position": "Full-Stack Developer",
+      "city": "Berlin",
+      "country": "Germany",
+      "email": "ovjungingen@codecompany.com"
+    },
+    {
+      "name": "Claire",
+      "surname": "Kowalsky",
+      "id": "7",
+      "age": "31",
+      "position": "Finance Manager for APAC",
+      "city": "Seattle",
+      "country": "United Stated",
+      "email": "ckowalsky@codecompany.com"
+    },
+    {
+      "name": "Adam",
+      "surname": "Gądkowski",
+      "id": "8",
+      "age": "26",
+      "position": "Junior Researcher",
+      "city": "Warsaw",
+      "country": "Poland",
+      "email": "agadkowski@codecompany.com"
+    }
+  ]
+}

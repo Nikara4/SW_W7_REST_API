@@ -1,0 +1,85 @@
+.user
+  position: relative
+  width: 80%
+  margin: 30px 30px
+  padding: 10px 0
+  font-size: 16px
+  border: 1px solid #00b894
+  border-radius: 10px
+  box-shadow: 0 1px 8px rgba(45,	52,	54, 0.4)
+  &--img
+    border-radius: 50%
+    margin: 7px 40px
+  & h3
+    position: absolute
+    top: 20px
+    left: 110px
+    font-size: 16px
+    line-height: 40px
+  & p
+    line-height: 30px
+    & a 
+      text-decoration: none
+      color: #0984e3
+      transition: .3s
+      &:hover
+        color: #2d3436
+  & span
+    font-weight: bold
+    padding-right: 10px
+  &--address, & p, & span
+    padding-left: 10px
+
+.users
+  width: 100%
+  &--h3
+    font-size: 18px
+    padding: 15px 0
+  &--ul
+    list-style: none
+    padding-left: 5px
+  &--li
+    margin: 15px 0
+  &--link
+    +usersLink(#2d3436, #636e72)
+  &--dot__flashing
+    position: relative
+    top: 10px
+    margin: 15px 0 0 20px 
+    width: 5px
+    height: 5px
+    border-radius: 50%
+    background-color: #2d3436
+    color: #2d3436
+    animation: dotFlashing 1s infinite linear alternate
+    animation-delay: .5s
+    &::before, &::after
+      content: ''
+      position: absolute
+      display:-inline-block
+    &::before 
+      left: -15px
+      width: 5px
+      height: 5px
+      border-radius: 50%
+      background-color: #2d3436
+      color: #2d3436
+      animation: dotFlashing 1s infinite alternate
+      animation-delay: 0s
+    &::after 
+      left:15px
+      width: 5px
+      height: 5px
+      border-radius: 50%
+      background-color: #2d3436
+      color: #2d3436
+      animation: dotFlashing 1s infinite alternate
+      animation-delay: 1.2s
+
+@keyframes dotFlashing 
+  0% 
+    background-color: #2d3436
+  50%,
+  100% 
+    background-color: white
+  

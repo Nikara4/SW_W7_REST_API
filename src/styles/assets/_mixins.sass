@@ -1,0 +1,41 @@
+=button($bgcColor, $bgcColorHover)
+  padding: 2px 20px
+  margin-top: 10px
+  text-transform: uppercase
+  font-weight: bold
+  font-size: 16px
+  letter-spacing: 1px
+  background-color: $bgcColor
+  color: white
+  cursor: pointer
+  border: none
+  border-radius: 5px
+  transition: .3s
+  &:hover
+    background-color: $bgcColorHover
+
+=usersLink($color, $colorHover)
+  font-size: 16px
+  text-decoration: none
+  color: $color
+  transition: .2s
+  &:hover
+    color: $colorHover
+
+=buttonBig
+  display: block
+  font-size: 30px
+  font-weight: bold
+  padding: 10px 30px
+  margin-top: 5%
+  cursor: pointer
+  background-color: #0984e3
+  color: #f5f6fa
+  border: 2px solid #f5f6fa
+  border-radius: 10px
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5)
+  z-index: -1
+  transition: .3s
+  &:hover
+    color: #dfe6e9
+    background-color: #636e72
